@@ -157,9 +157,13 @@ What do you notice about this data set? What do you wonder? Add one-two
 thoughts following the dashes next (you can add additional dashes if you
 like!):
 
--   Missing `Grade_Category` values. I am not sure what this might reflect.
+-   Missing `Grade_Category` values. I am not sure what this might
+    reflect.
 
--   There are 603 rows of 30 columns of what appears to be LMS data related to a science course, including demographic information, some initial individual differences, time-on-task, and a few outcomes (individual questions; final score).
+-   There are 603 rows of 30 columns of what appears to be LMS data
+    related to a science course, including demographic information, some
+    initial individual differences, time-on-task, and a few outcomes
+    (individual questions; final score).
 
 There are other ways to inspect your data; the `glimpse()` function
 provides one such way. Run the code below to take a glimpse at your
@@ -184,11 +188,14 @@ your area of work and/or research.
 
 What rows typically (or you think may) represent:
 
--   I use both wide and long format data. Typically, I keep a main file where rows reflect one participant. I also keep response data for hand-coding in long format, so a row reflects one response.
+-   I use both wide and long format data. Typically, I keep a main file
+    where rows reflect one participant. I also keep response data for
+    hand-coding in long format, so a row reflects one response.
 
 What columns typically (or you think may) represent:
 
--   Columns in wide format are different variables. In my long-format data, columns reflect different raters' responses.
+-   Columns in wide format are different variables. In my long-format
+    data, columns reflect different raters' responses.
 
 Next, we'll use a few functions that are handy for preparing data in
 table form.
